@@ -22,7 +22,7 @@ database.connect();
 app.use(express.json());
 app.use(cookieParser());
 var corsOptions = {
-    origin:"https://mern-studynotion.vercel.app/",
+    origin:"https://mern-studynotion.vercel.app",
     optionsSuccessStatus:200,
 }
 app.use(
