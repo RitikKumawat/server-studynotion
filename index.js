@@ -23,6 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 var corsOptions = {
     origin:"https://mern-studynotion.vercel.app",
+    allowedHeaders:['Content-Type'],
     optionsSuccessStatus:200,
 }
 app.use(
